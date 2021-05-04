@@ -1,69 +1,69 @@
 // example seed data
-const cats = [
+const pizza = [
   {
-    name: 'Felix',
-    type: 'Tuxedo',
+    name: 'Yummy',
+    type: 'Cheese',
     url: 'cats/felix.png',
-    year: 1892,
-    lives: 3,
-    isSidekick: false
+    year: 1999,
+    spiceLevel: 1,
+    isSpicy: false
   },
   {
-    name: 'Garfield',
-    type: 'Orange Tabby',
+    name: 'Delicious',
+    type: 'Pepperoni',
     url: 'cats/garfield.jpeg',
-    year: 1978,
-    lives: 7,
-    isSidekick: false
+    year: 2000,
+    spiceLevel: 2,
+    isSpicy: true
   },
   {
-    name: 'Duchess',
-    type: 'Angora',
+    name: 'Heaven',
+    type: 'Triple Cheese',
     url: 'cats/duchess.jpeg',
-    year: 1970,
-    lives: 9,
-    isSidekick: false
+    year: 2001,
+    spiceLevel: 3,
+    isSpicy: false
   },
   {
-    name: 'Stimpy',
-    type: 'Manx',
+    name: 'Saucy',
+    type: 'No Cheese',
     url: 'cats/stimpy.jpeg',
-    year: 1990,
-    lives: 1,
-    isSidekick: true
+    year: 2002,
+    spiceLevel: 4,
+    isSpicy: true
   },
   {
-    name: 'Sylvester',
-    type: 'Tuxedo',
+    name: 'Healthy',
+    type: 'Veggies',
     url: 'cats/sylvester.jpeg',
-    year: 1945,
-    lives: 1,
-    isSidekick: true
+    year: 2003,
+    spiceLevel: 5,
+    isSpicy: false
   },
   {
-    name: 'Tigger',
-    type: 'Orange Tabby',
+    name: 'Hot',
+    type: 'Peppers',
     url: 'cats/tigger.jpeg',
-    year: 1928,
-    lives: 8,
-    isSidekick: false
+    year: 2004,
+    spiceLevel: 6,
+    isSpicy: true
   },
   {
-    name: 'Hello Kitty',
-    type: 'Angora',
+    name: 'Sweet',
+    type: 'Pineapple',
     url: 'cats/hello-kitty.jpeg',
-    year: 1974,
-    lives: 9,
-    isSidekick: false
+    year: 2005,
+    spiceLevel: 7,
+    isSpicy: false
   },
   {
-    name: 'Hobbs',
-    type: 'Orange Tabby',
+    name: 'Meaty',
+    type: 'Sausage',
     url: 'cats/hobbs.jpeg',
-    year: 1985,
-    lives: 6,
-    isSidekick: true
+    year: 2006,
+    spiceLevel: 8,
+    isSpicy: true
   }
 ];
 
-export default cats;
+export default pizza;
