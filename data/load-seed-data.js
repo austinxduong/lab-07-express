@@ -12,7 +12,7 @@ async function run() {
     await Promise.all(
       pizza.map(pizzas => {
         return client.query(`
-          INSERT INTO pizza (name, type, url, year, spiceLevel, is_Spicy)
+          INSERT INTO pizza (name, type, url, year, spice_level, is_spicy)
           VALUES ($1, $2, $3, $4, $5, $6);
         `,
         [pizzas.name, pizzas.type, pizzas.url, pizzas.year, pizzas.spiceLevel, pizzas.isSpicy]);

@@ -16,8 +16,8 @@ async function run() {
         type VARCHAR(512) NOT NULL,
         url VARCHAR(1024) NOT NULL,
         year INTEGER NOT NULL,
-        spiceLevel INTEGER NOT NULL,
-        is_Spicy BOOLEAN DEFAULT FALSE
+        spice_level INTEGER NOT NULL,
+        is_spicy BOOLEAN DEFAULT FALSE
       );
     `);
 
